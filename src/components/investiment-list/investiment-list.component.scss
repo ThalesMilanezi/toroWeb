@@ -1,0 +1,35 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardPrincipal {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardItem {
+  width: 100%;
+  height: 100%;
+}
+
+.selection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  height: auto;
+  justify-content: space-around;
+}
