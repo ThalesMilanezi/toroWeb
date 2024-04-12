@@ -1,0 +1,20 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.imgAssets {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 5vw;
+  height: 8vh;
+}
+
+.containerImg {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,13 @@
+<app-header/>
+<div class="title">
+  <h1> Lista de investimentos</h1>
+  <h3>Comprar</h3>
+</div>
+    <mat-selection-list #stocks class="selection">
+      @for (stock of Stocks; track stock) {
+        <mat-list-option class="options">{{stock}}</mat-list-option>
+      }
+    </mat-selection-list>
+    <p>
+      Investimentos selecionados para compra: {{stocks.selectedOptions.selected.length}}
+    </p>
